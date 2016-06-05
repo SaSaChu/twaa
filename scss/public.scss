@@ -1,0 +1,261 @@
+@import "_oa";
+
+@include font-face("Monaco", font-files("monaco/monaco.ttf", "monaco/monaco.otf"));
+// @include font-face("icomoon", font-files("icomoon/icomoon.eot", "icomoon/icomoon.woff", "icomoon/icomoon.ttf", "icomoon/icomoon.svg"));
+// [class^="icon-"], [class*=" icon-"] {
+//   font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
+//   speak: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   @include font-smoothing(antialiased);
+// }
+
+* {
+  &, &:after, &:before {
+    vertical-align: top;
+    @include box-sizing(border-box);
+    @include selection(rgba(150, 200, 255, 1), rgba(255, 255, 255, 1));
+    @include font-smoothing(antialiased);
+  }
+}
+
+html {
+  height: 100%;
+
+  body {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
+    background: rgba(242, 242, 242, 1.00);
+    color: rgba(50, 50, 50, 0.8);
+
+    @include font-smoothing(antialiased);
+
+    $allwidth: 1000px;
+
+
+    header {
+      display: inline-block;
+      width:100%;
+      height: 60px;
+      background-color: rgba(58, 58, 58, 1.00);
+      border-bottom: 5px solid rgba(142, 94, 37, 1.00);
+
+      .hb {
+        margin: 0 auto;
+        width: $allwidth;
+        height: 100%;
+
+        @include split-left(75%, '.tbl', '.tbr');
+
+        .tbl {
+          float: left;
+          padding-top: 13px;
+
+          img {
+            float: left;
+            height: auto;
+            max-width: 100%;
+          }
+        }
+
+        .tbr {
+          height: 30px;
+          float: left;
+          margin-top: 13px;
+          padding: 3px 15px;
+
+          @include border-radius(30px);
+          background-color: rgba(255, 255, 255, .3);
+
+          #search {
+            width: 100%;
+            height: 24px;
+
+            padding-left: 5px;
+            font-size: .8em;
+            color: rgba(38, 228, 193, 1.00);
+
+            background-color: transparent !important;
+            border: 0;
+          }
+        }
+
+      }
+    }
+
+
+
+    #middle {
+      width: 100%;
+      height: 100%;
+
+      padding-top: 15px;
+
+      .mb {
+        margin: 0 auto;
+        width: $allwidth;
+        height: 100%;
+
+        @include split-left(75%, '.mbl', '.mbr');
+
+        .mbl {
+          float: left;
+          padding-right: 15px;
+
+
+          .mbla {
+            width: 100%;
+
+            border-top: 1px solid rgba(223, 223, 223, 1.00);
+            border-bottom: 1px solid rgba(223, 223, 223, 1.00);
+
+            @include clearfix();
+
+            > div {
+              float: left;
+              width: calc(100% / 6);
+              height: 100%;
+              padding: 10px 0;
+
+              text-align: center;
+
+              a {
+                display: block;
+                width: 100%;
+                font-size: .8em;
+                font-weight: bolder;
+                color: rgba(107, 105, 105, 1.00);
+                text-decoration: none;
+
+                &:hover {
+                  color: rgba(48, 170, 149, 1.00);
+                }
+
+                &.nh {
+                  color: rgba(48, 170, 149, 1.00);
+                }
+              }
+
+              + div {
+                a {
+                  position: relative;
+
+                  &:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: inline-block;
+                    width: 1px;
+                    height: 100%;
+                    background-color: rgba(143, 143, 143, 1.00);
+                  }
+                }
+              }
+            }
+
+
+          }
+
+
+          .mblb {
+            width: 100%;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(223, 223, 223, 1.00);
+
+            @include clearfix();
+
+            > div {
+              display: inline-block;
+              width: calc(50% - 5px);
+
+              border: 1px solid rgba(255, 0, 0, .3);
+
+              &:nth-child(2n+1) {
+                float: left;
+              }
+
+              &:nth-child(2n) {
+                float: right;
+                background-color: rgba(0, 0, 255, 0.2);
+              }
+            }
+          }
+
+          .mblc {
+            width: 100%;
+            height: 500px;
+          }
+
+        }
+
+
+
+        .mbr {
+          float: left;
+
+          .mbra {
+            width: 100%;
+            height: 300px;
+
+            background-color: rgba(0, 0, 255, 0.2);
+          }
+
+          .mbrb {
+            width: 100%;
+            height: 300px;
+
+            background-color: rgba(0, 128, 0, 0.2);
+          }
+
+          .mbrc {
+            width: 100%;
+            height: 300px;
+
+            border: 1px solid rgba(255, 0, 0, .3);
+          }
+
+          .mbrd {
+            width: 100%;
+            height: 300px;
+
+            background-color: rgba(255, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+
+
+
+    footer {
+      display: inline-block;
+      width: 100%;
+      height: 90px;
+
+      .fba {
+        height: 45px;
+        background-color: rgba(59, 59, 59, 1.00);
+      }
+
+      .fbb {
+        height: 45px;
+        background-color: rgba(197, 228, 146, 1.00);
+      }
+
+    }
+
+
+
+
+  }
+}
