@@ -206,7 +206,8 @@ html {
           }
 
           > span {
-            float: left;
+            display: inline-block;
+            width: 100%;
             font-size: 1em;
             color: rgba(76, 76, 76, 1.00);
             text-align: left;
