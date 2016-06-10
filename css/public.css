@@ -45,11 +45,11 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/twaa/font/monaco/monaco.ttf?1457875218') format('truetype'), url('/twaa/font/monaco/monaco.otf?1457875218') format('opentype');
+  src: url('/twaa/font/monaco/monaco.ttf?1465200514') format('truetype'), url('/twaa/font/monaco/monaco.otf?1465200514') format('opentype');
 }
 @font-face {
   font-family: "icomoon";
-  src: url('/twaa/font/icomoon/icomoon.eot?1465276184') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465276184') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465276184') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465276184') format('svg');
+  src: url('/twaa/font/icomoon/icomoon.eot?1465569972') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465569972') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465569972') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465569972') format('svg');
 }
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
@@ -72,6 +72,14 @@
 
 .icon-facebook-with-circle:before {
   content: "\e902";
+}
+
+.icon-chevron-thin-up:before {
+  content: "\e900";
+}
+
+.icon-chevron-thin-down:before {
+  content: "\e901";
 }
 
 *, *:after, *:before {
@@ -354,56 +362,56 @@ html body {
     clear: both;
   }
   html body #middle .mb .mbl .mbla {
-    display: none;
+    position: relative;
+    display: inline-block;
     float: left;
     width: 100%;
     margin-bottom: 10px;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
-    *zoom: 1;
   }
   html body #middle .mb .mbl .mbla.mf {
     margin-bottom: 0;
   }
-  html body #middle .mb .mbl .mbla:after {
-    display: table;
-    content: "";
-    line-height: 0;
-    clear: both;
+  html body #middle .mb .mbl .mbla:before {
+    position: absolute;
+    display: inline-block;
+    content: "\e901";
+    font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
+    right: 5px;
+    top: 10px;
+  }
+  html body #middle .mb .mbl .mbla.show:before {
+    content: "\e900";
+    font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
+  }
+  html body #middle .mb .mbl .mbla.show > div {
+    display: inline-block;
   }
   html body #middle .mb .mbl .mbla > div {
-    float: left;
-    width: calc(100% / 6);
+    width: 100%;
     height: 100%;
     padding: 10px 0;
     text-align: center;
+    display: none;
+  }
+  html body #middle .mb .mbl .mbla > div.nh {
+    display: inline-block;
+  }
+  html body #middle .mb .mbl .mbla > div.nh a {
+    color: #30aa95;
   }
   html body #middle .mb .mbl .mbla > div a {
-    display: block;
     width: 100%;
     font-size: .8em;
     font-weight: bolder;
     color: #6b6969;
     text-decoration: none;
+    display: block;
+    text-align: left;
   }
   html body #middle .mb .mbl .mbla > div a:hover {
     color: #30aa95;
-  }
-  html body #middle .mb .mbl .mbla > div a.nh {
-    color: #30aa95;
-  }
-  html body #middle .mb .mbl .mbla > div + div a {
-    position: relative;
-  }
-  html body #middle .mb .mbl .mbla > div + div a:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: inline-block;
-    width: 1px;
-    height: 100%;
-    background-color: #8f8f8f;
   }
   html body #middle .mb .mbl .mblb {
     width: 100%;
@@ -1216,6 +1224,9 @@ html body {
     padding: 10px 0;
     text-align: center;
   }
+  html body #middle .mb .mbl .mbla > div.nh a {
+    color: #30aa95;
+  }
   html body #middle .mb .mbl .mbla > div a {
     display: block;
     width: 100%;
@@ -1225,9 +1236,6 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mbla > div a:hover {
-    color: #30aa95;
-  }
-  html body #middle .mb .mbl .mbla > div a.nh {
     color: #30aa95;
   }
   html body #middle .mb .mbl .mbla > div + div a {

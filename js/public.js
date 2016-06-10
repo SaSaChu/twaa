@@ -12,5 +12,14 @@
 }(document, 'script', 'facebook-jssdk'));
 
 $(function () {
-
+  if ($(window).width () < 960) {
+    $('.mbla').click (function () {
+      $(this).addClass ('show');
+      return false;
+    });
+    $('.mbla a').click (function () {
+      if (!$(this).parent ().hasClass ('nh'))
+        window.location.assign ($(this).attr ('href'));
+    });
+  }
 });
