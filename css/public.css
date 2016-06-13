@@ -45,11 +45,11 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/twaa/font/monaco/monaco.ttf?1465200514') format('truetype'), url('/twaa/font/monaco/monaco.otf?1465200514') format('opentype');
+  src: url('/twaa/font/monaco/monaco.ttf?1457875218') format('truetype'), url('/twaa/font/monaco/monaco.otf?1457875218') format('opentype');
 }
 @font-face {
   font-family: "icomoon";
-  src: url('/twaa/font/icomoon/icomoon.eot?1465569972') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465569972') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465569972') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465569972') format('svg');
+  src: url('/twaa/font/icomoon/icomoon.eot?1465788872') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465788872') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465788872') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465788872') format('svg');
 }
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
@@ -379,7 +379,7 @@ html body {
     content: "\e901";
     font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
     right: 5px;
-    top: 10px;
+    top: 20px;
   }
   html body #middle .mb .mbl .mbla.show:before {
     content: "\e900";
@@ -403,7 +403,7 @@ html body {
   }
   html body #middle .mb .mbl .mbla > div a {
     width: 100%;
-    font-size: .8em;
+    font-size: 1.4em;
     font-weight: bolder;
     color: #6b6969;
     text-decoration: none;
@@ -488,11 +488,10 @@ html body {
   html body #middle .mb .mbl .mblb > div .dowbox .greentype {
     width: 100%;
     padding-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: left;
     line-height: 1.4em;
     color: #158e78;
-    font-weight: bolder;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype {
     width: 100%;
@@ -511,7 +510,6 @@ html body {
     font-size: 1em;
     line-height: 1.4em;
     color: #158e78;
-    font-weight: bolder;
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype a:hover {
@@ -595,9 +593,8 @@ html body {
     text-align: left;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span {
-    font-size: .8em;
-    line-height: 1em;
-    font-weight: bolder;
+    font-size: 1.2em;
+    line-height: 1.6em;
     color: #474747;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
@@ -828,7 +825,7 @@ html body {
     text-align: left;
   }
   html body #middle .mb .mbr .mbra .ttbb .ct a {
-    font-size: .8em;
+    font-size: 1em;
     font-weight: bolder;
     color: #474747;
     text-decoration: none;
@@ -1230,7 +1227,7 @@ html body {
   html body #middle .mb .mbl .mbla > div a {
     display: block;
     width: 100%;
-    font-size: .8em;
+    font-size: 1em;
     font-weight: bolder;
     color: #6b6969;
     text-decoration: none;
@@ -1326,11 +1323,10 @@ html body {
   html body #middle .mb .mbl .mblb > div .dowbox .greentype {
     width: 100%;
     padding-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: left;
     line-height: 1.4em;
     color: #158e78;
-    font-weight: bolder;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype {
     width: 100%;
@@ -1349,7 +1345,6 @@ html body {
     font-size: 1em;
     line-height: 1.4em;
     color: #158e78;
-    font-weight: bolder;
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype a:hover {
@@ -1432,9 +1427,8 @@ html body {
     text-align: left;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span {
-    font-size: .8em;
-    line-height: 1em;
-    font-weight: bolder;
+    font-size: 1.2em;
+    line-height: 1.6em;
     color: #474747;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
@@ -1657,7 +1651,7 @@ html body {
     text-align: left;
   }
   html body #middle .mb .mbr .mbra .ttbb .ct a {
-    font-size: .8em;
+    font-size: 1em;
     font-weight: bolder;
     color: #474747;
     text-decoration: none;

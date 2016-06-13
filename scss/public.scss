@@ -310,7 +310,7 @@ html {
               font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
 
               right: 5px;
-              top: 10px;
+              top: 20px;
             }
             &.show {
               &:before {
@@ -338,7 +338,7 @@ html {
               }
               a {
                 width: 100%;
-                font-size: .8em;
+                font-size: 1.4em;
                 font-weight: bolder;
                 color: rgba(107, 105, 105, 1.00);
                 text-decoration: none;
@@ -438,11 +438,11 @@ html {
                 .greentype {
                   width: 100%;
                   padding-bottom: 15px;
-                  font-size: 1.2em;
+                  font-size: 1.4em;
                   text-align: left;
                   line-height: 1.4em;
                   color: rgba(21, 142, 120, 1.00);
-                  font-weight: bolder;
+                  // font-weight: bolder;
                 }
 
                 .titletype {
@@ -457,7 +457,7 @@ html {
                   font-size: 1em;
                   line-height: 1.4em;
                   color: rgba(21, 142, 120, 1.00);
-                  font-weight: bolder;
+                  // font-weight: bolder;
                   text-decoration: none;
 
                   &:hover {
@@ -530,9 +530,9 @@ html {
                 text-align: left;
 
                 span {
-                  font-size: .8em;
-                  line-height: 1em;
-                  font-weight: bolder;
+                  font-size: 1.2em;
+                  line-height: 1.6em;
+                  // font-weight: bolder;
                   color: rgba(71, 71, 71, 1.00);
 
                   a {
@@ -787,7 +787,7 @@ html {
                 text-align: left;
 
                 a {
-                  font-size: .8em;
+                  font-size: 1em;
                   font-weight: bolder;
                   color: rgba(71, 71, 71, 1.00);
                   text-decoration: none;
@@ -1142,7 +1142,7 @@ html {
               a {
                 display: block;
                 width: 100%;
-                font-size: .8em;
+                font-size: 1em;
                 font-weight: bolder;
                 color: rgba(107, 105, 105, 1.00);
                 text-decoration: none;
@@ -1257,11 +1257,11 @@ html {
                 .greentype {
                   width: 100%;
                   padding-bottom: 15px;
-                  font-size: 1.2em;
+                  font-size: 1.4em;
                   text-align: left;
                   line-height: 1.4em;
                   color: rgba(21, 142, 120, 1.00);
-                  font-weight: bolder;
+                  // font-weight: bolder;
                 }
 
                 .titletype {
@@ -1276,7 +1276,7 @@ html {
                   font-size: 1em;
                   line-height: 1.4em;
                   color: rgba(21, 142, 120, 1.00);
-                  font-weight: bolder;
+                  // font-weight: bolder;
                   text-decoration: none;
 
                   &:hover {
@@ -1348,9 +1348,9 @@ html {
                 text-align: left;
 
                 span {
-                  font-size: .8em;
-                  line-height: 1em;
-                  font-weight: bolder;
+                  font-size: 1.2em;
+                  line-height: 1.6em;
+                  // font-weight: bolder;
                   color: rgba(71, 71, 71, 1.00);
 
                   a {
@@ -1597,7 +1597,7 @@ html {
                 text-align: left;
 
                 a {
-                  font-size: .8em;
+                  font-size: 1em;
                   font-weight: bolder;
                   color: rgba(71, 71, 71, 1.00);
                   text-decoration: none;
