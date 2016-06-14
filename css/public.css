@@ -45,11 +45,11 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/twaa/font/monaco/monaco.ttf?1465200514') format('truetype'), url('/twaa/font/monaco/monaco.otf?1465200514') format('opentype');
+  src: url('/twaa/font/monaco/monaco.ttf?1457875218') format('truetype'), url('/twaa/font/monaco/monaco.otf?1457875218') format('opentype');
 }
 @font-face {
   font-family: "icomoon";
-  src: url('/twaa/font/icomoon/icomoon.eot?1465569972') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465569972') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465569972') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465569972') format('svg');
+  src: url('/twaa/font/icomoon/icomoon.eot?1465788872') format('embedded-opentype'), url('/twaa/font/icomoon/icomoon.woff?1465788872') format('woff'), url('/twaa/font/icomoon/icomoon.ttf?1465788872') format('truetype'), url('/twaa/font/icomoon/icomoon.svg?1465788872') format('svg');
 }
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon', Monaco, "微軟正黑體", "Microsoft JhengHei";
@@ -279,7 +279,7 @@ html body {
   }
   html body #middle .mb .mtag a:hover {
     color: #00e5c1;
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mtag a.hup {
     color: #00e5c1;
@@ -347,7 +347,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .rulwbg > span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbl {
     width: 100%;
@@ -513,7 +513,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people {
     width: 100%;
@@ -603,7 +603,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n+1) {
     float: none;
@@ -831,7 +831,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbr .mbra .ttbb .ct a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbr .mbra .ttbb:last-child {
     border: 0;
@@ -907,7 +907,7 @@ html body {
     text-decoration: none;
   }
   html body footer .fba .fbab .fbr span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body footer .fbb {
     height: auto;
@@ -1097,7 +1097,7 @@ html body {
   }
   html body #middle .mb .mtag a:hover {
     color: #00e5c1;
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mtag a.hup {
     color: #00e5c1;
@@ -1164,7 +1164,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .rulwbg > span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb:after {
     display: table;
@@ -1348,7 +1348,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people {
     width: 100%;
@@ -1437,7 +1437,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n+1) {
     float: left;
@@ -1657,7 +1657,7 @@ html body {
     text-decoration: none;
   }
   html body #middle .mb .mbr .mbra .ttbb .ct a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body #middle .mb .mbr .mbra .ttbb:last-child {
     border: 0;
@@ -1727,7 +1727,7 @@ html body {
     text-decoration: none;
   }
   html body footer .fba .fbab .fbr span a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   html body footer .fbb {
     height: 45px;
