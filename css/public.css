@@ -113,7 +113,7 @@ html body {
   width: 100%;
   height: 100%;
   font-size: medium;
-  font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
+  font-family: "Roboto", "微軟正黑體", Monaco;
   background: #f2f2f2;
   color: rgba(50, 50, 50, 0.8);
   -moz-osx-font-smoothing: antialiased;
@@ -366,7 +366,7 @@ html body {
     display: inline-block;
     float: left;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
   }
@@ -519,7 +519,7 @@ html body {
     width: 100%;
     border-top: 1px solid rgba(112, 71, 24, 0.5);
     border-bottom: 0;
-    padding: 10px 0;
+    padding: 5px 0;
     *zoom: 1;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people.dd03 {
@@ -589,12 +589,12 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0;
     text-align: left;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span {
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     color: #474747;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
@@ -607,14 +607,14 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n+1) {
     float: none;
-    padding: 10px 0;
+    padding: 0;
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n) {
     float: none;
     background-color: rgba(95, 194, 194, 0.1);
     border-top: 1px solid rgba(95, 194, 194, 0.5);
     border-bottom: 1px solid rgba(95, 194, 194, 0.5);
-    padding: 20px 0;
+    padding: 0;
   }
   html body #middle .mb .mbl .mblc {
     width: 100%;
@@ -1188,7 +1188,7 @@ html body {
   }
   html body #middle .mb .mbl {
     float: left;
-    padding-right: 15px;
+    padding-right: 30px;
     *zoom: 1;
   }
   html body #middle .mb .mbl:after {
@@ -1266,7 +1266,7 @@ html body {
   html body #middle .mb .mbl .mblb > div {
     display: inline-block;
     width: calc(50% - 5px);
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
   html body #middle .mb .mbl .mblb > div.cc {
     width: 100%;
@@ -1282,7 +1282,7 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .typbox {
     width: 100%;
-    height: 150px;
+    height: 155px;
     *zoom: 1;
   }
   html body #middle .mb .mbl .mblb > div .typbox:after {
@@ -1294,7 +1294,7 @@ html body {
   html body #middle .mb .mbl .mblb > div .typbox.cc01 {
     float: left;
     width: 40%;
-    height: 205px;
+    height: 155px;
     padding-top: 15px;
   }
   html body #middle .mb .mbl .mblb > div .typbox.cc01 img {
@@ -1342,7 +1342,7 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .dowbox .titletype a {
     float: left;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #158e78;
     text-decoration: none;
@@ -1423,12 +1423,12 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0;
     text-align: left;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span {
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1.4em;
     color: #474747;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
@@ -1557,7 +1557,7 @@ html body {
     width: 100%;
     border-top: 5px solid #e69d26;
     border-bottom: 1px solid #d2d2d2;
-    padding: 10px 0;
+    padding: 8px 0;
   }
   html body #middle .mb .mbr .mbra .ttba.blue {
     border-top: 5px solid #26d6e8;
