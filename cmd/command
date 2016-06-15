@@ -1,60 +1,9 @@
 === commit << 這個是快速 command 然後 push 的語法
-我舉個例子喔，我現在修改了一個檔案，可以看到 sourcetree 有改變，但是我想要快速地做一個 commite
-那就看我的表演
 
 git add -A && git commit -m 'Fix html code.'
-這段語法 就是說，全部的修都做成一個 commit，懂？ㄣ
 
 git add -A && git commit -m 'Fix html code.' && git push origin master
-這段語法可以看到後面多了一個 git push origin master，就是 push 的意思，懂？恩
 
-所以說，我們剛剛做了一個 commit 所以要 push 沒錯吧？ㄣ
-這樣就丟上去了，懂？恩
-
-但你還記得，要丟上去之前做什麼？ 要commit啊
-COMMIT 完了之後呢？打著解壓，還要 pull 吧？
-可是我知道你沒有修改的話我都是直接push捏
-沒錯！
-但是當 push 失敗的話，就代表說 我有修改，所以要 pull 沒錯吧？ㄣ
-pull 的語法
-
-git pull
-這樣打就可以懂？ㄣ
-
-好，要來教祕技了
-
-
-懂？ㄣ
-現在有了 node_modules 所以要看哪個？
-
-你現在看一下有沒有，你剛剛不是刪掉了嗎
-對，小聰明噎你，所以要看哪一個？
-跑完，沒有紅字，就是成功，懂？ㄣ
-
-然後看 st，下 command +r 重新整理，可以看到多了一個東西，就是多了 gh-pages 這個分支
-剛剛貼的語法，其實就是開分支，將分支丟上去，丟上去之前先把 html\js 都壓成一行
-這些都是藉由程式碼幫你跑的，懂？ㄣ
-
-所以網址就會是
-sasachu.github.io/專案名稱
-這包專案是你 sasachu 的 github 開的所以就是會是 sasachu
-開
-
-
-那，我下次再做修正的時候，是否要先把gh-pages刪掉？
-
-可以，但也不用
-
-你若砍掉就是跑 no gh-pages
-
-下次若是不砍掉 就是跑 has gh-pages
-
-？ㄣ
-
-差別是，不砍掉比較快ＸＤ但其實沒差多少
-
-我跑一次流程給你看
-？ㄣ
 
 === no npm installed << 這個的意思是看一看你的 cmd 下面有沒有 node_modules 沒有的話看這裡
 
@@ -66,12 +15,9 @@ git branch -D gh-pages && git branch -v gh-pages && git checkout gh-pages && cd 
 
 
 === has npm installed << 這個的意思是看一看你的 cmd 下面有沒有 node_modules 有的話看這裡
-很好
 
-
-no gh-pages 這個意思是，看你的 SourceTree 有沒有 gh-pages 這個分支
-沒錯！答對！
+no gh-pages
 git branch -v gh-pages && git checkout gh-pages && cd cmd && gulp minify && gulp gh-pages && cd ../ && git add -A && git commit -m 'Minify js、html, fix gh-pages path bug.' && git push origin gh-pages --force && git checkout master
 
-has gh-pages 這個意思是，看你的 SourceTree 有沒有 gh-pages 這個分支
+has gh-pages
 git branch -D gh-pages && git branch -v gh-pages && git checkout gh-pages && cd cmd && gulp minify && gulp gh-pages && cd ../ && git add -A && git commit -m 'Minify js、html, fix gh-pages path bug.' && git push origin gh-pages --force && git checkout master
