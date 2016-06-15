@@ -31,4 +31,8 @@ $(function () {
   $('#top').click (function () {
     $('body').animate ({ scrollTop: 0 }, 'slow');
   });
+
+
+  $('.typbox').imgLiquid ({verticalAlign: 'center'});
+  // $('.typbox').css ({'border': '1px solid rgba(255, 0, 0, .3)'})
 });
