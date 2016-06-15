@@ -521,6 +521,10 @@ html {
                 .pb {
                   float: left;
                   padding: 5px 0;
+
+                  &.bb01 {
+                    padding: 12px 0;
+                  }
                 }
               }
 
@@ -1256,7 +1260,7 @@ html {
 
                 .greentype {
                   width: 100%;
-                  padding-bottom: 15px;
+                  padding-bottom: 10px;
                   font-size: 1.4em;
                   text-align: left;
                   line-height: 1.4em;
@@ -1292,7 +1296,7 @@ html {
                 padding: 10px 0;
 
                 &.dd03 {
-                  padding: 0;
+                  padding-bottom: 5px;
                 }
 
                 @include split-left(70%, '.pa', '.pb');
@@ -1301,7 +1305,6 @@ html {
                   float: left;
 
                   @include clearfix();
-
 
                   .bbox {
                     display: inline-block;
@@ -1336,9 +1339,13 @@ html {
                   }
                 }
 
-                .pb {
+               .pb {
                   float: left;
-                  padding: 0;
+                  padding: 5px 0;
+
+                  &.bb01 {
+                    padding: 10px 0;
+                  }
                 }
               }
 

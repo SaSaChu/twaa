@@ -587,6 +587,9 @@ html body {
     float: left;
     padding: 5px 0;
   }
+  html body #middle .mb .mbl .mblb > div .dowbox .people .pb.bb01 {
+    padding: 12px 0;
+  }
   html body #middle .mb .mbl .mblb > div .dowbox .centype {
     width: 100%;
     padding-top: 0;
@@ -1322,7 +1325,7 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .dowbox .greentype {
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 1.4em;
     text-align: left;
     line-height: 1.4em;
@@ -1358,7 +1361,7 @@ html body {
     *zoom: 1;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people.dd03 {
-    padding: 0;
+    padding-bottom: 5px;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people:after {
     display: table;
@@ -1419,7 +1422,10 @@ html body {
   }
   html body #middle .mb .mbl .mblb > div .dowbox .people .pb {
     float: left;
-    padding: 0;
+    padding: 5px 0;
+  }
+  html body #middle .mb .mbl .mblb > div .dowbox .people .pb.bb01 {
+    padding: 10px 0;
   }
   html body #middle .mb .mbl .mblb > div .dowbox .centype {
     width: 100%;
