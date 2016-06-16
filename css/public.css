@@ -600,6 +600,9 @@ html body {
     line-height: 1.3em;
     color: #474747;
   }
+  html body #middle .mb .mbl .mblb > div .dowbox .centype span img {
+    max-width: 100%;
+  }
   html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
     color: #158e78;
     font-weight: bolder;

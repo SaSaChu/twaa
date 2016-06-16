@@ -538,7 +538,9 @@ html {
                   line-height: 1.3em;
                   // font-weight: bolder;
                   color: rgba(71, 71, 71, 1.00);
-
+                  img {
+                    max-width: 100%;
+                  }
                   a {
                     color: rgba(21, 142, 120, 1.00);
                     font-weight: bolder;
