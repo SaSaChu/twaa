@@ -1269,8 +1269,10 @@ html body {
   html body #middle .mb .mbl .mblb > div {
     display: inline-block;
     width: calc(50% - 5px);
-    height: 230px;
     margin-bottom: 0;
+  }
+  html body #middle .mb .mbl .mblb > div.ii {
+    height: 230px;
   }
   html body #middle .mb .mbl .mblb > div.cc {
     width: 100%;
