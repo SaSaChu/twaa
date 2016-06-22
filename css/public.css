@@ -782,19 +782,19 @@ html body {
     text-align: center;
   }
   html body #middle .mb .mbr .mbra .cloudbox span.t01 {
-    font-size: .8em;
-  }
-  html body #middle .mb .mbr .mbra .cloudbox span.t02 {
-    font-size: 1.4em;
-  }
-  html body #middle .mb .mbr .mbra .cloudbox span.t03 {
     font-size: 1em;
   }
+  html body #middle .mb .mbr .mbra .cloudbox span.t02 {
+    font-size: 1.1em;
+  }
+  html body #middle .mb .mbr .mbra .cloudbox span.t03 {
+    font-size: 1.2em;
+  }
   html body #middle .mb .mbr .mbra .cloudbox span.t04 {
-    font-size: 2.2em;
+    font-size: 1.3em;
   }
   html body #middle .mb .mbr .mbra .cloudbox span.t05 {
-    font-size: .6em;
+    font-size: 1.4em;
   }
   html body #middle .mb .mbr .mbra .ttbb {
     float: left;
@@ -1614,19 +1614,19 @@ html body {
     text-align: center;
   }
   html body #middle .mb .mbr .mbra .cloudbox span.t01 {
-    font-size: .8em;
-  }
-  html body #middle .mb .mbr .mbra .cloudbox span.t02 {
-    font-size: 1.4em;
-  }
-  html body #middle .mb .mbr .mbra .cloudbox span.t03 {
     font-size: 1em;
   }
+  html body #middle .mb .mbr .mbra .cloudbox span.t02 {
+    font-size: 1.1em;
+  }
+  html body #middle .mb .mbr .mbra .cloudbox span.t03 {
+    font-size: 1.2em;
+  }
   html body #middle .mb .mbr .mbra .cloudbox span.t04 {
-    font-size: 2.2em;
+    font-size: 1.3em;
   }
   html body #middle .mb .mbr .mbra .cloudbox span.t05 {
-    font-size: .6em;
+    font-size: 1.4em;
   }
   html body #middle .mb .mbr .mbra .ttbb {
     float: left;
