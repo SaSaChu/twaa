@@ -12,13 +12,16 @@
 }(document, 'script', 'facebook-jssdk'));
 
 $(function () {
+  if (!$('.mbla > div.nh').length)
+    $('.mbla > div').eq (0).addClass ('nh2');
+
   if ($(window).width () < 960) {
     $('.mbla').click (function () {
       $(this).addClass ('show');
       return false;
     });
     $('.mbla a').click (function () {
-      if (!$(this).parent ().hasClass ('nh'))
+      if (!$(this).parent ().hasClass ('nh') && !$(this).parent ().hasClass ('nh2'))
         window.location.assign ($(this).attr ('href'));
     });
   }
