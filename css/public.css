@@ -1231,6 +1231,9 @@ html body {
     padding: 10px 0;
     text-align: center;
   }
+  html body #middle .mb .mbl .mbla > div:nth-child(1) {
+    display: none;
+  }
   html body #middle .mb .mbl .mbla > div.nh a {
     color: #30aa95;
   }
@@ -1244,6 +1247,9 @@ html body {
   }
   html body #middle .mb .mbl .mbla > div a:hover {
     color: #30aa95;
+  }
+  html body #middle .mb .mbl .mbla > div + div:nth-child(2) a:before {
+    display: none;
   }
   html body #middle .mb .mbl .mbla > div + div a {
     position: relative;

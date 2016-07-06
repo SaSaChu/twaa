@@ -1149,6 +1149,10 @@ html {
 
               text-align: center;
 
+              &:nth-child(1) {
+                display: none;
+              }
+
               &.nh {
                 a {
                   color: rgba(48, 170, 149, 1.00);
@@ -1169,6 +1173,13 @@ html {
               }
 
               + div {
+                &:nth-child(2) {
+                  a {
+                    &:before {
+                      display: none;
+                    }
+                  }
+                }
                 a {
                   position: relative;
 
