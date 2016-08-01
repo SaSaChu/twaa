@@ -598,21 +598,28 @@ html body {
     padding-top: 0;
     text-align: left;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk {
+    display: inline-block;
+    width: 100%;
     font-size: 1.1em;
     line-height: 1.3em;
     color: #474747;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span img {
-    max-width: 100%;
-    height: auto !important;
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk .uu {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk .uu img {
+    max-width: 400px;
+    height: 100%;
+  }
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk a {
     color: #158e78;
     font-weight: bolder;
     text-decoration: none;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span a:hover {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk a:hover {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n+1) {
@@ -1448,17 +1455,29 @@ html body {
     padding-top: 0;
     text-align: left;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk {
+    display: inline-block;
+    width: 100%;
     font-size: 1em;
     line-height: 1.4em;
     color: #474747;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span a {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk .uu {
+    width: 720px;
+    height: 300px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 255, 0.2);
+  }
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk .uu img {
+    max-width: 100%;
+    height: 100%;
+  }
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk a {
     color: #158e78;
     font-weight: bolder;
     text-decoration: none;
   }
-  html body #middle .mb .mbl .mblb > div .dowbox .centype span a:hover {
+  html body #middle .mb .mbl .mblb > div .dowbox .centype .kk a:hover {
     text-decoration: none;
   }
   html body #middle .mb .mbl .mblb > div:nth-child(2n+1) {
