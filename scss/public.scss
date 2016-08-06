@@ -538,6 +538,10 @@ html {
                 padding-top: 0;
                 text-align: left;
 
+                img {
+                  max-width: 100% !important;
+                  height: auto !important;
+                }
                 .kk {
                   display: inline-block;
                   width: 100%;
@@ -1386,6 +1390,10 @@ html {
                 width: 100%;
                 padding-top: 0;
                 text-align: left;
+                img {
+                  max-width: 100% !important;
+                  height: auto !important;
+                }
 
                 .kk {
                   display: inline-block;
